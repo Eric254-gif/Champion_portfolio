@@ -16,32 +16,32 @@ const categories = ["All", "UI/UX Design", "Photography", "Anime Drawing", "App 
 const projects = [
   
   {
-    title: "KU SME Project ",
+    title: "Email System",
     category: "App Development",
-    image: "https://i.ibb.co/QFGnsrDd/image.png",
-    link: "https://github.com/Hac254/SME-PROJECT",
-    demoLink: "https://sme-project.vercel.app/", // Add demo link for app development projects
+    image: "/Email.png",
+    link: "https://github.com/Eric254-gif/Email-System",
+    demoLink: "https://email-system-dun.vercel.app/", // Add demo link for app development projects
   },
   {
-    title: "Mewa Entreprises Website ",
+    title: "Champion Studio Website ",
     category: "App Development",
-    image: "https://i.ibb.co/8LqqqNDv/image.png",
-    link: "https://github.com/Hac254/Mewa-enterprises-website",
-    demoLink: "https://mewa-enterprises.vercel.app/", // Add demo link for app development projects
+    image: "/studio.png",
+    link: "https://github.com/Eric254-gif/studio-website",
+    demoLink: "https://creative-studio-seven.vercel.app/", // Add demo link for app development projects
   },
   {
-    title: "Delice-De-Hilda ",
+    title: "Real estate website ",
     category: "App Development",
-    image: "https://i.ibb.co/hJP7k7Zk/image.png",
-    link: "https://github.com/Hac254/Delice-de-Hilda",
-    demoLink: "https://delice-de-hilda.vercel.app/", // Add demo link for app development projects
+    image: "/Real estate.png",
+    link: "https://github.com/Eric254-gif/Real_estate",
+    demoLink: "real-estate-chi-navy.vercel.app",  // Add demo link for app development projects
   },
   {
-    title: "KU SME Project 2 ",
+    title: "Car rental website ",
     category: "App Development",
-    image: "https://i.ibb.co/RkJRrf3m/image.png",
-    link: "https://github.com/Hac254/KU-SME-Website",
-    demoLink: "https://ku-sme-project.vercel.app/", // Add demo link for app development projects
+    image: "/Car.png",
+    link: "https://github.com/Eric254-gif/Champion-Car-Renting",
+    demoLink: "https://champion-car-renting.onrender.com/", // Add demo link for app development projects
   },
   {
     title: "SaaS Landing page ",

@@ -2,30 +2,30 @@ export function PersonStructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Joshua Wafula",
-    alternateName: "Wafula Joshua",
+    name: "Eric Musembi",
+    alternateName: "Eric  Musembi",
     description: "Cloud Engineer, Web Developer, and App Developer based in Kenya",
-    image: "https://wafula-josh.vercel.app/profile-image.jpg", // Replace with actual image path
-    jobTitle: "Cloud Engineer",
+    image: "/Profile.jpg", // Replace with actual image path
+    jobTitle: "Web developer",
     worksFor: {
       "@type": "Organization",
-      name: "Fikia LTD",
+      name: "Champion Tech LTD",
     },
-    url: "https://wafula-josh.vercel.app/",
+    url: "https://your-domain.vercel.app",
     sameAs: [
-      "https://www.linkedin.com/in/joshua-wafula-11bb6121b/",
-      "https://github.com/Hac254",
-      "https://www.instagram.com/wafula_josh/",
-      "https://x.com/HackerJosh2",
-      "https://www.facebook.com/wafula.josh.5855",
+      "https://www.linkedin.com//",
+      "https://github.com/Eric254-gif",
+      "https://www.instagram.com/peter_son8193/",
+      "https://x.com/EricMus98755173",
+      "https://www.facebook.com/",
     ],
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Migori",
+      addressLocality: "Sultan Hamud",
       addressRegion: "Kenya",
     },
-    email: "wafulajoosh@gmail.com",
-    telephone: "+254792195650",
+    email: "musembieric43@gmail.com",
+    telephone: "+254799046751",
     knowsAbout: ["Cloud Computing", "Web Development", "App Development", "UI/UX Design", "Photography"],
   }
 

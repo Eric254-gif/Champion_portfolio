@@ -63,22 +63,22 @@ export function ContactSection() {
         </CardHeader>
         <CardContent>
           <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4 sm:space-y-6">
-            <input type="hidden" name="access_key" value="e32dd2b7-307c-4838-be52-ec299340377a" />
+            <input type="hidden" name="access_key" value="5dc6109e-4f3f-4bce-b41b-f31c3f482a45" />
             <input type="hidden" name="subject" value="New contact form submission from your portfolio" />
             <input type="hidden" name="from_name" value="Your Portfolio Website" />
-            <input type="hidden" name="replyto" value="wafulajoosh@gmail.com" />
+            <input type="hidden" name="replyto" value="kiokojames242@gmail.com" />
             <div className="grid gap-4 sm:grid-cols-2">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-1">
                   Your Name
                 </label>
-                <Input id="name" name="name" placeholder="Johnte Doe" required />
+                <Input id="name" name="name" placeholder="Champion j" required />
               </div>
               <div>
                 <label htmlFor="email" className="block text-sm font-medium mb-1">
                   Email Address
                 </label>
-                <Input id="email" name="email" type="email" placeholder="morio@example.com" required />
+                <Input id="email" name="email" type="email" placeholder="champ@example.com" required />
               </div>
             </div>
             <div>

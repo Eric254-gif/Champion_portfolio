@@ -13,13 +13,14 @@ const poppins = Poppins({
 
 // Enhanced metadata for better SEO
 export const metadata: Metadata = {
-  title: "Joshua Wafula | IT Practitioner & Web Developer",
+  metadataBase: new URL("https://your-domain.vercel.app"),
+  title: "Eric Musembi | IT Practitioner & Web Developer",
   description:
-    "Portfolio of Joshua Wafula, a certified IT Personnel, IT Practitioner, Cloud Practitioner, Web Developer, and App Developer based in Kenya. View my projects, skills, and experience.",
+    "Portfolio of Eric Musembi, a certified IT Personnel, IT Practitioner, Cloud Practitioner, Web Developer, and App Developer based in Kenya. View my projects, skills, and experience.",
   keywords: [
-    "Joshua Wafula",
+    "Eric Musembi ",
     "IT Practitioner",
-    "Wafula Joshua",
+    "Musembi Eric",
     "Cloud Engineer",
     "Web Developer",
     "Kenya Developer",
@@ -27,31 +28,34 @@ export const metadata: Metadata = {
     "UI/UX Designer",
     "Photography",
   ],
-  authors: [{ name: "Joshua Wafula" }],
-  creator: "Joshua Wafula",
+  authors: [{ name: "Eric Musembi" }],
+  creator: "Eric Musembi",
+  icons: {
+  icon: "/favicon.svg",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://wafula-josh.vercel.app/",
-    title: "Joshua Wafula | IT Practitioner & Web Developer",
+    url: "https://your-domain.vercel.app",
+    title: "Eric Musembi | IT Practitioner & Web Developer",
     description:
-      "Portfolio of Joshua Wafula, a certified IT Personnel, Cloud Practitioner, Web Developer, and App Developer based in Kenya.",
-    siteName: "Joshua Wafula Portfolio",
+      "Portfolio of Eric Musembi, a certified IT Personnel, Cloud Practitioner, Web Developer, and App Developer based in Kenya.",
+    siteName: "Eric Musembi Portfolio",
     images: [
       {
-        url: "https://wafula-josh.vercel.app/_next/image?url=https%3A%2F%2Fi.ibb.co%2FSNxQVFS%2Fmy-avatar.png&w=128&q=75", // Create this image and replace with actual path
+        url: "/Profile.jpg", // Create this image and replace with actual path
         width: 1200,
         height: 630,
-        alt: "Joshua Wafula Portfolio",
+        alt: "Eric Musembi Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Joshua Wafula | Cloud Engineer & Web Developer",
+    title: "Eric Musembi | Cloud Engineer & Web Developer",
     description:
-      "Portfolio of Joshua Wafula, a certified IT Personnel, Cloud Practitioner, Web Developer, and App Developer based in Kenya.",
-    images: ["https://wafula-josh.vercel.app/_next/image?url=https%3A%2F%2Fi.ibb.co%2FjvMCvVyg%2Fimage.png&w=640&q=75"], // Same as OG image
+      "Portfolio of Eric Musembi, a certified IT Personnel, Cloud Practitioner, Web Developer, and App Developer based in Kenya.",
+    images: ["/Profile.jpg"], // Same as OG image
   },
   robots: {
     index: true,
@@ -68,7 +72,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className="dark">
       <head><Script
           strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=G-48THCFH2Z7`} // Replace with your actual measurement ID
+          src={`https://www.googletagmanager.com/gtag/js?id=G-EMQL6TE4ZH`} // Replace with your actual measurement ID
         />
         <Script
           id="google-analytics"
@@ -78,7 +82,7 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-48THCFH2Z7'); // Replace with your actual measurement ID
+              gtag('config', 'G-EMQL6TE4ZH'); // Replace with your actual measurement ID
             `,
           }}
         /></head>

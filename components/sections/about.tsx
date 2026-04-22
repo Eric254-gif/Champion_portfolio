@@ -31,21 +31,21 @@ const testimonials = [
     name: "Judith Oliech",
     role: "Secretary, Bodi Highschool",
     content:
-      "Joshua's work on our cloud infrastructure was exceptional. His expertise significantly improved our system's efficiency and reliability. The migration process was smooth, and his documentation was thorough. He demonstrated great problem-solving skills and was always available when we needed support. I highly recommend Joshua for any cloud engineering projects.",
+      "Eric's work on our cloud infrastructure was exceptional. His expertise significantly improved our system's efficiency and reliability. The migration process was smooth, and his documentation was thorough. He demonstrated great problem-solving skills and was always available when we needed support. I highly recommend Joshua for any cloud engineering projects.",
     image: "https://i.ibb.co/wYG44zV/judith-oliech.png",
   },
   {
     name: "Sheldon Aseka",
     role: "Marketing Director, CreativeMinds",
     content:
-      "Joshua's design work for our campaign was brilliant. He has a great eye for detail and understands client needs perfectly.",
+      "Eric's design work for our campaign was brilliant. He has a great eye for detail and understands client needs perfectly.",
     image: "https://i.ibb.co/XVbSQLC/profile-pic-4.png",
   },
   {
     name: "Carnice Dianne",
     role: "CEO, Carnice Cakes",
     content:
-      "Joshua's design and website development brilliant. He has a great eye for detail and understands client needs perfectly. His creative approach and consistency helped us achieve outstanding results. The website was delivered ahead of schedule, and the quality exceeded our expectations. A true professional who goes above and beyond.",
+      "Eric's design and website development brilliant. He has a great eye for detail and understands client needs perfectly. His creative approach and consistency helped us achieve outstanding results. The website was delivered ahead of schedule, and the quality exceeded our expectations. A true professional who goes above and beyond.",
     image: "https://i.ibb.co/r2zNTfM/Whats-App-Image-2025-01-22-at-12-01-52-PM.jpg",
   },
   {
@@ -91,15 +91,10 @@ export function AboutSection() {
         </CardHeader>
         <CardContent>
           <p className="text-muted-foreground">
-            Hello, I&apos;m Josh, a certified IT Practitioner and a Cloud Practitioner. I am also a Web and App Developer,
-            Graphics Designer, Photographer among other tech related roles which I do on my part-time. I currently live
-            in Kenya, Thika town to be precise. I love Music, anime and cats. I enjoy turning ideas and concepts into
-            reality as I face new challenging tasks in my field which make me learn.
+            Hello, I’m Eric, a passionate Computer Science student with a strong interest in technology and innovation. I have skills in academic writing, graphic design, databases, Excel, and web development, and I am continuously improving my abilities as I grow in the tech field. I am currently based in Juja, Kenya. I enjoy working on real-world projects such as system development and database design. Some of the projects I have explored include building management systems, working with SQL databases, and developing web-based applications.
           </p>
           <p className="mt-4 text-muted-foreground">
-            Some of the projects I have undertaken include Cloud deployment, Bot dev, Cinematography and film Making,
-            System Development etc. The tech world is a fascinating and ever-growing field which needs one to be a life
-            long learner.
+            I am driven by curiosity and the desire to turn ideas into practical solutions that solve real problems. I take on new challenges as opportunities to learn and improve my skills. I believe technology is constantly evolving, and to succeed in this field, one must remain a lifelong learner, always ready to adapt and grow.
           </p>
         </CardContent>
       </Card>

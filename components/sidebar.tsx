@@ -29,16 +29,16 @@ export function Sidebar() {
         <div className="flex flex-col sm:flex-row lg:flex-col items-center gap-6">
           <div className="rounded-xl overflow-hidden bg-gradient-to-br from-muted/50 to-muted">
             <Image
-              src="https://i.ibb.co/SNxQVFS/my-avatar.png"
-              alt="Joshua Wafula"
+              src="/Profile.jpg" // Replace with actual image path
+              alt="Eric musembi"
               width={120}
               height={120}
               className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 object-cover transition-all duration-300 ease-in-out hover:scale-105"
             />
           </div>
           <div className="text-center sm:text-left lg:text-center">
-            <h1 className="text-xl md:text-2xl font-medium mb-2">Wafula Joshua</h1>
-            <div className="inline-block bg-muted px-3 py-1 rounded-lg text-sm">Cloud Engineer</div>
+            <h1 className="text-xl md:text-2xl font-medium mb-2">Eric Musembi</h1>
+            <div className="inline-block bg-muted px-3 py-1 rounded-lg text-sm">Web Developer</div>
           </div>
         </div>
 
@@ -55,8 +55,8 @@ export function Sidebar() {
               </div>
               <div className="text-sm">
                 <p className="text-muted-foreground">Email</p>
-                <a href="mailto:wafulajoosh@gmail.com" className="hover:text-primary">
-                  wafulajoosh@gmail.com
+                <a href="mailto:musembieric43@gmail.com" className="hover:text-primary">
+                  musembieric43@gmail.com
                 </a>
               </div>
             </div>
@@ -67,8 +67,8 @@ export function Sidebar() {
               </div>
               <div className="text-sm">
                 <p className="text-muted-foreground">Phone</p>
-                <a href="tel:+254792195650" className="hover:text-primary">
-                  +(254) 792 195 650
+                <a href="tel:+254799046751" className="hover:text-primary">
+                  +(254) 799 046 751
                 </a>
               </div>
             </div>
@@ -79,7 +79,7 @@ export function Sidebar() {
               </div>
               <div className="text-sm">
                 <p className="text-muted-foreground">Birthday</p>
-                <time dateTime="2002-04-24">24<sup>th</sup>, April</time>
+                <time dateTime="2003-01-22">22<sup>nd</sup>, January</time>
               </div>
             </div>
 
@@ -89,14 +89,14 @@ export function Sidebar() {
               </div>
               <div className="text-sm">
                 <p className="text-muted-foreground">Location</p>
-                <address>Thika, Kenya</address>
+                <address>Juja, Kenya</address>
               </div>
             </div>
           </div>
 
           <div className="flex gap-2 mt-4 justify-center sm:justify-start lg:justify-center">
             <a
-              href="https://www.facebook.com/wafula.josh.5855"
+              href="https://www.facebook.com"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-muted hover:bg-primary/20 transition-all duration-300 ease-in-out"
@@ -104,7 +104,7 @@ export function Sidebar() {
               <Facebook className="h-4 w-4" />
             </a>
             <a
-              href="https://x.com/HackerJosh2"
+              href="https://x.com/EricMus98755173"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-muted hover:bg-primary/20 transition-all duration-300 ease-in-out"
@@ -112,7 +112,7 @@ export function Sidebar() {
               <Twitter className="h-4 w-4" />
             </a>
             <a
-              href="https://www.linkedin.com/in/joshua-wafula-11bb6121b/"
+              href="https://www.linkedin.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-muted hover:bg-primary/20 transition-all duration-300 ease-in-out"
@@ -120,7 +120,7 @@ export function Sidebar() {
               <Linkedin className="h-4 w-4" />
             </a>
             <a
-              href="https://www.instagram.com/wafula_josh/"
+              href="https://www.instagram.com/peter_son8193/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-muted hover:bg-primary/20 transition-all duration-300 ease-in-out"
@@ -128,7 +128,7 @@ export function Sidebar() {
               <Instagram className="h-4 w-4" />
             </a>
             <a
-              href="https://github.com/Hac254"
+              href="https://github.com/Eric254-gif"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-muted hover:bg-primary/20 transition-all duration-300 ease-in-out"
@@ -136,7 +136,7 @@ export function Sidebar() {
               <Github className="h-4 w-4" />
             </a>
             <a
-              href="https://www.pinterest.com/wafula_josh/_created/"
+              href="https://pin.it/68aouSCUi"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-muted hover:bg-primary/20 transition-all duration-300 ease-in-out"
